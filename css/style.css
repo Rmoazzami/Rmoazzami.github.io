@@ -408,8 +408,7 @@ body.offcanvas {
 }
 @media screen and (max-width: 768px) {
     .background-img {
-      padding: 2em;
-      position: relative;
+      display: none;
 
     }
   }
