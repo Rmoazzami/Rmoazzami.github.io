@@ -405,6 +405,13 @@ body.offcanvas {
   position: relative;
 }
 
+@media screen and (min-width: 500px){
+    .background-img {
+      display:block;
+
+    }
+  }
+
 .author-img {
   background-size: cover;
   background-position: center center;

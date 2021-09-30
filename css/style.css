@@ -396,6 +396,10 @@ body.offcanvas {
     .colorlib-contact {
       padding-top: 5em;
       padding-bottom: 6em; } }
+
+
+
+
 .background-img {
   max-width: 1000px;
   max-height: 100%;
@@ -403,21 +407,44 @@ body.offcanvas {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  padding: 1em;
-
-}
-@media screen and (max-width: 768px) {
+  padding: 1em; }
+@media screen and (max-width: 740px){
     .background-img {
-      display: none;
+      background-image: none!important;
 
     }
   }
+
 
 .author-img {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative; }
+
+  @media screen and (max-width: 740px){
+    .author {
+      display: none!important;
+    }
+    .author-img {
+      /*padding: 0;*/
+      width: 260px;
+      height:260px;
+      background-repeat: no-repeat;
+      /*background-image: none!important;*/
+      /*vertical-align: middle;*/
+      /*position: center center!important;*/
+      /*display: block;*/
+      /*background-size: cover;*/
+      /*background-image: none!important;*/
+      /*background-position: center center, 0px 0px;*/
+      /*margin: 10px;*/
+
+      /*background-origin: 0*/
+
+    }
+  }
+
 
 .colorlib-heading {
   font-size: 18px;
